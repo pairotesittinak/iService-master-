@@ -1,0 +1,23 @@
+// angular.module("app").controller("showUsers.IndexController", function ($scope) {
+//   $scope.labels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+//   $scope.series = ['Series A', 'Series B'];
+//   $scope.test = "1234";
+//   $scope.data = [
+//     [65, 59, 80, 81, 56, 55, 40],
+//     [28, 48, 40, 19, 86, 27, 90]
+//   ];
+// });
+// , ['chart.js']
+var app = angular.module('app');
+
+app.controller('showUsers.IndexController', function($scope) {
+ // ngular.module("app").controller("showUsers.IndexController", function ($scope) {
+  $scope.labels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+  $scope.series = ['Series A', 'Series B'];
+  $scope.test = "1234";
+  $scope.data = [
+    [65, 59, 80, 81, 56, 55, 40],
+    [28, 48, 40, 19, 86, 27, 90]
+  ];
+// }
+});
